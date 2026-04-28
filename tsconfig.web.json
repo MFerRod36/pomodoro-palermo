@@ -1,0 +1,10 @@
+{
+  "extends": "@electron-toolkit/tsconfig/tsconfig.web.json",
+  "include": ["src/renderer/timer/**/*", "src/renderer/overlay/**/*", "src/shared/**/*"],
+  "compilerOptions": {
+    "composite": true,
+    "paths": {
+      "@shared/*": ["./src/shared/*"]
+    }
+  }
+}

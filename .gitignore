@@ -2,6 +2,10 @@ node_modules/
 dist/
 dist-electron/
 out/
+.vite/
 .DS_Store
 *.local
 .env
+
+# Video asset — too large for git. Add manually after cloning.
+src/renderer/assets/break-video.mp4
