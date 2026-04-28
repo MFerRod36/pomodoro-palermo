@@ -90,7 +90,9 @@ src/
 └── shared/
     ├── types.ts            # Shared TypeScript types
     ├── ipc-channels.ts     # IPC channel constants
-    └── utils.ts            # Shared utilities
+    ├── utils.ts            # Shared utilities (formatTime)
+    ├── cn.ts               # Tailwind class merge utility
+    └── window.d.ts         # Global Window type declaration (timerAPI)
 ```
 
 ---
@@ -102,7 +104,7 @@ src/
 3. When the session ends, the break overlay takes over the screen
 4. The overlay closes automatically when the break timer runs out
 5. After all cycles complete, the widget shows **DONE**
-6. Press **⚙** to open settings and adjust duration or cycle count — takes effect on the next session
+6. Press **⚙** to open settings and adjust duration or cycle count — resets the timer immediately on save
 
 ---
 

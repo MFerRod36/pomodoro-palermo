@@ -5,8 +5,8 @@ import { cn } from '@shared/cn'
 
 const INITIAL_STATE: TimerState = {
   phase: PHASE.WORK,
-  remaining: 25 * 60,
-  total: 25 * 60,
+  remaining: 30 * 60,
+  total: 30 * 60,
   isRunning: false,
   currentCycle: 1,
   totalCycles: 4,
